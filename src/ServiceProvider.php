@@ -1,6 +1,6 @@
-<?php namespace Cviebrock\EloquentSluggable;
+<?php namespace XisoDev\EloquentSluggable;
 
-use Cviebrock\EloquentSluggable\Services\SlugService;
+use XisoDev\EloquentSluggable\Services\SlugService;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
@@ -8,7 +8,7 @@ use Laravel\Lumen\Application as LumenApplication;
 /**
  * Class ServiceProvider
  *
- * @package Cviebrock\EloquentSluggable
+ * @package XisoDev\EloquentSluggable
  */
 class ServiceProvider extends BaseServiceProvider
 {

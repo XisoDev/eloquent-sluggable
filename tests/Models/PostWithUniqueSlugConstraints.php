@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Class PostWithUniqueSlugConstraints
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package XisoDev\EloquentSluggable\Tests\Models
  */
 class PostWithUniqueSlugConstraints extends Post
 {

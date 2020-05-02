@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
 use Illuminate\Support\Collection;
 
@@ -8,7 +8,7 @@ use Illuminate\Support\Collection;
  *
  * A test model that uses a custom suffix generation method.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package XisoDev\EloquentSluggable\Tests\Models
  */
 class PostWithCustomSuffix extends Post
 {

@@ -3,7 +3,7 @@
 Contributions are **welcome** and will be fully **credited**.
 
 We accept contributions via pull requests via 
-[Github](https://github.com/cviebrock/eloquent-sluggable).
+[Github](https://github.com/xisodev/eloquent-sluggable).
 
 1. Fork the project.
 2. Create your bugfix/feature branch and write your (well-commented) code.

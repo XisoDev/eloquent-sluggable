@@ -1,12 +1,12 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
-use Cviebrock\EloquentSluggable\Sluggable;
+use XisoDev\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Post
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package XisoDev\EloquentSluggable\Tests\Models
  *
  * @property integer id
  * @property string title

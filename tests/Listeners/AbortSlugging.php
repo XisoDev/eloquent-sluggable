@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Listeners;
+<?php namespace XisoDev\EloquentSluggable\Tests\Listeners;
 
 /**
  * Class AbortSlugging

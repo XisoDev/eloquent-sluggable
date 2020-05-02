@@ -1,9 +1,9 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
 /**
  * Class PostWithMultipleSources
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package XisoDev\EloquentSluggable\Tests\Models
  */
 class PostWithMultipleSources extends Post
 {

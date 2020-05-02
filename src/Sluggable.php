@@ -1,13 +1,13 @@
-<?php namespace Cviebrock\EloquentSluggable;
+<?php namespace XisoDev\EloquentSluggable;
 
-use Cviebrock\EloquentSluggable\Services\SlugService;
+use XisoDev\EloquentSluggable\Services\SlugService;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Sluggable
  *
- * @package Cviebrock\EloquentSluggable
+ * @package XisoDev\EloquentSluggable
  */
 trait Sluggable
 {

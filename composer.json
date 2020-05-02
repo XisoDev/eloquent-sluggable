@@ -1,5 +1,5 @@
 {
-    "name": "cviebrock/eloquent-sluggable",
+    "name": "xisodev/eloquent-sluggable",
     "description": "Easy creation of slugs for your Eloquent models in Laravel",
     "keywords": [
         "eloquent-sluggable",
@@ -9,9 +9,13 @@
         "lumen",
         "slug"
     ],
-    "homepage": "https://github.com/cviebrock/eloquent-sluggable",
+    "homepage": "https://github.com/xisodev/eloquent-sluggable",
     "license": "MIT",
     "authors": [
+        {
+            "name": "xiso",
+            "email": "xiso@amuz.co.kr"
+        },
         {
             "name": "Colin Viebrock",
             "email": "colin@viebrock.ca"
@@ -19,7 +23,7 @@
     ],
     "require": {
         "php": "^7.2.5",
-        "cocur/slugify": "^4.0",
+        "xisodev/slugify": "^4.0",
         "illuminate/config": "^7.0",
         "illuminate/database": "^7.0",
         "illuminate/support": "^7.0"
@@ -33,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cviebrock\\EloquentSluggable\\": "src"
+            "XisoDev\\EloquentSluggable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cviebrock\\EloquentSluggable\\Tests\\": "tests"
+            "XisoDev\\EloquentSluggable\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,7 +51,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cviebrock\\EloquentSluggable\\ServiceProvider"
+                "XisoDev\\EloquentSluggable\\ServiceProvider"
             ]
         }
     },

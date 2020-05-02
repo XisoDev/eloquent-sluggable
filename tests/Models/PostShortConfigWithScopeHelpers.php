@@ -1,11 +1,11 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
-use Cviebrock\EloquentSluggable\SluggableScopeHelpers;
+use XisoDev\EloquentSluggable\SluggableScopeHelpers;
 
 /**
  * Class PostShortConfigWithScopeHelpers
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package XisoDev\EloquentSluggable\Tests\Models
  */
 class PostShortConfigWithScopeHelpers extends Post
 {

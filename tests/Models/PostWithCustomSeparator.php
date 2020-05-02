@@ -1,11 +1,11 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
 /**
  * Class PostWithCustomSeparator
  *
  * A test model that uses a custom suffix generation method.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package XisoDev\EloquentSluggable\Tests\Models
  */
 class PostWithCustomSeparator extends Post
 {

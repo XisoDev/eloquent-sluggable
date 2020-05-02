@@ -1,7 +1,7 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace XisoDev\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\Post;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithOnUpdate;
+use XisoDev\EloquentSluggable\Tests\Models\Post;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithOnUpdate;
 
 /**
  * Class OnUpdateTests
@@ -86,7 +86,7 @@ class OnUpdateTests extends TestCase
      * but the source fields didn't change, even with multiple
      * increments of the same slug.
      *
-     * @see https://github.com/cviebrock/eloquent-sluggable/issues/317
+     * @see https://github.com/xisodev/eloquent-sluggable/issues/317
      */
     public function testSlugDoesNotChangeIfSourceDoesNotChangeMultiple()
     {

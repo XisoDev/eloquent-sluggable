@@ -1,13 +1,13 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
 /**
  * Class PostWithRelation
  *
  * A test model used for the relationship tests.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package XisoDev\EloquentSluggable\Tests\Models
  *
- * @property \Cviebrock\EloquentSluggable\Tests\Models\Author author
+ * @property \XisoDev\EloquentSluggable\Tests\Models\Author author
  */
 class PostWithRelation extends Post
 {

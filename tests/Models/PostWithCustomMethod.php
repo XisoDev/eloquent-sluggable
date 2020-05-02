@@ -1,4 +1,4 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
 use Illuminate\Support\Str;
 
@@ -6,7 +6,7 @@ use Illuminate\Support\Str;
 /**
  * Class PostWithCustomMethod
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package XisoDev\EloquentSluggable\Tests\Models
  */
 class PostWithCustomMethod extends Post
 {

@@ -1,8 +1,8 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace XisoDev\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithIncludeTrashed;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithSoftDeleting;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithSoftDeletingIncludeTrashed;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithIncludeTrashed;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithSoftDeleting;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithSoftDeletingIncludeTrashed;
 
 /**
  * Class SoftDeleteTests

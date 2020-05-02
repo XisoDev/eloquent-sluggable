@@ -1,8 +1,8 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace XisoDev\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Listeners\AbortSlugging;
-use Cviebrock\EloquentSluggable\Tests\Listeners\DoNotAbortSlugging;
-use Cviebrock\EloquentSluggable\Tests\Models\Post;
+use XisoDev\EloquentSluggable\Tests\Listeners\AbortSlugging;
+use XisoDev\EloquentSluggable\Tests\Listeners\DoNotAbortSlugging;
+use XisoDev\EloquentSluggable\Tests\Models\Post;
 
 /**
  * Class EventTests

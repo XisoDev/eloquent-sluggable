@@ -1,11 +1,11 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests\Models;
+<?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
 /**
  * Class PostWithReservedSlug
  *
  * A test model that uses custom reserved slug names.
  *
- * @package Cviebrock\EloquentSluggable\Tests\Models
+ * @package XisoDev\EloquentSluggable\Tests\Models
  */
 class PostWithReservedSlug extends Post
 {

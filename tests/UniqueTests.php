@@ -1,8 +1,8 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace XisoDev\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\Author;
-use Cviebrock\EloquentSluggable\Tests\Models\Post;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithUniqueSlugConstraints;
+use XisoDev\EloquentSluggable\Tests\Models\Author;
+use XisoDev\EloquentSluggable\Tests\Models\Post;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithUniqueSlugConstraints;
 
 /**
  * Class UniqueTests

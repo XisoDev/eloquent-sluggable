@@ -1,19 +1,19 @@
-<?php namespace Cviebrock\EloquentSluggable;
+<?php namespace XisoDev\EloquentSluggable;
 
-use Cviebrock\EloquentSluggable\Services\SlugService;
+use XisoDev\EloquentSluggable\Services\SlugService;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class SluggableObserver
  *
- * @package Cviebrock\EloquentSluggable
+ * @package XisoDev\EloquentSluggable
  */
 class SluggableObserver
 {
 
     /**
-     * @var \Cviebrock\EloquentSluggable\Services\SlugService
+     * @var \XisoDev\EloquentSluggable\Services\SlugService
      */
     private $slugService;
 
@@ -25,7 +25,7 @@ class SluggableObserver
     /**
      * SluggableObserver constructor.
      *
-     * @param \Cviebrock\EloquentSluggable\Services\SlugService $slugService
+     * @param \XisoDev\EloquentSluggable\Services\SlugService $slugService
      * @param \Illuminate\Contracts\Events\Dispatcher $events
      */
     public function __construct(SlugService $slugService, Dispatcher $events)

@@ -1,25 +1,25 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace XisoDev\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\Author;
-use Cviebrock\EloquentSluggable\Tests\Models\Post;
-use Cviebrock\EloquentSluggable\Tests\Models\PostNotSluggable;
-use Cviebrock\EloquentSluggable\Tests\Models\PostShortConfig;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomCallableMethod;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomEngine;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomEngine2;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomMethod;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomSeparator;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomSource;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithCustomSuffix;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithEmptySeparator;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithForeignRuleset;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMaxLength;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMaxLengthSplitWords;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMultipleSlugs;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMultipleSources;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithNoSource;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithRelation;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithReservedSlug;
+use XisoDev\EloquentSluggable\Tests\Models\Author;
+use XisoDev\EloquentSluggable\Tests\Models\Post;
+use XisoDev\EloquentSluggable\Tests\Models\PostNotSluggable;
+use XisoDev\EloquentSluggable\Tests\Models\PostShortConfig;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithCustomCallableMethod;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithCustomEngine;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithCustomEngine2;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithCustomMethod;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithCustomSeparator;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithCustomSource;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithCustomSuffix;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithEmptySeparator;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithForeignRuleset;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithMaxLength;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithMaxLengthSplitWords;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithMultipleSlugs;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithMultipleSources;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithNoSource;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithRelation;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithReservedSlug;
 
 /**
  * Class BaseTests
@@ -161,7 +161,7 @@ class BaseTests extends TestCase
     /**
      * Test when reverting to a shorter version of a similar slug.
      *
-     * @see https://github.com/cviebrock/eloquent-sluggable/issues/5
+     * @see https://github.com/xisodev/eloquent-sluggable/issues/5
      */
     public function testIssue5()
     {
@@ -184,7 +184,7 @@ class BaseTests extends TestCase
     /**
      * Test model replication.
      *
-     * @see https://github.com/cviebrock/eloquent-sluggable/issues/20
+     * @see https://github.com/xisodev/eloquent-sluggable/issues/20
      */
     public function testIssue20()
     {
@@ -279,7 +279,7 @@ class BaseTests extends TestCase
     /**
      * Test that models aren't slugged if the slug field is defined.
      *
-     * @see https://github.com/cviebrock/eloquent-sluggable/issues/32
+     * @see https://github.com/xisodev/eloquent-sluggable/issues/32
      */
     public function testDoesNotNeedSluggingWhenSlugIsSet()
     {
@@ -293,7 +293,7 @@ class BaseTests extends TestCase
     /**
      * Test that models aren't *re*slugged if the slug field is defined.
      *
-     * @see https://github.com/cviebrock/eloquent-sluggable/issues/32
+     * @see https://github.com/xisodev/eloquent-sluggable/issues/32
      */
     public function testDoesNotNeedSluggingWithUpdateWhenSlugIsSet()
     {
@@ -400,7 +400,7 @@ class BaseTests extends TestCase
     /**
      * Test if using an empty separator works.
      *
-     * @see https://github.com/cviebrock/eloquent-sluggable/issues/256
+     * @see https://github.com/xisodev/eloquent-sluggable/issues/256
      */
     public function testEmptySeparator()
     {

@@ -1,8 +1,8 @@
-<?php namespace Cviebrock\EloquentSluggable\Tests;
+<?php namespace XisoDev\EloquentSluggable\Tests;
 
-use Cviebrock\EloquentSluggable\Tests\Models\PostShortConfigWithScopeHelpers;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMultipleSlugsAndCustomSlugKey;
-use Cviebrock\EloquentSluggable\Tests\Models\PostWithMultipleSlugsAndHelperTrait;
+use XisoDev\EloquentSluggable\Tests\Models\PostShortConfigWithScopeHelpers;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithMultipleSlugsAndCustomSlugKey;
+use XisoDev\EloquentSluggable\Tests\Models\PostWithMultipleSlugsAndHelperTrait;
 
 /**
  * Class ScopeHelperTests
