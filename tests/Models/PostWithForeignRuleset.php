@@ -1,6 +1,6 @@
 <?php namespace XisoDev\EloquentSluggable\Tests\Models;
 
-use Cocur\Slugify\Slugify;
+use XisoDev\Slugify\Slugify;
 
 /**
  * Class PostWithForeignRuleset
@@ -13,9 +13,9 @@ class PostWithForeignRuleset extends Post
 {
 
     /**
-     * @param \Cocur\Slugify\Slugify $engine
+     * @param \XisoDev\Slugify\Slugify $engine
      * @param string $attribute
-     * @return \Cocur\Slugify\Slugify
+     * @return \XisoDev\Slugify\Slugify
      */
     public function customizeSlugEngine(Slugify $engine, $attribute)
     {

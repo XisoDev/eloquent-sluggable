@@ -1,6 +1,6 @@
 <?php namespace XisoDev\EloquentSluggable\Services;
 
-use Cocur\Slugify\Slugify;
+use XisoDev\Slugify\Slugify;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -187,7 +187,7 @@ class SlugService
      *
      * @param string $attribute
      *
-     * @return \Cocur\Slugify\Slugify
+     * @return \XisoDev\Slugify\Slugify
      */
     protected function getSlugEngine(string $attribute): Slugify
     {

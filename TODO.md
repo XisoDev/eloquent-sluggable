@@ -9,8 +9,8 @@
 
 ## Planned changes (possibly BC-breaking) for next major version - 4.0
 
-- [x] switch default slugging method from `Str::slug` to an external package/class that can handle transliteration of other languages (e.g. https://github.com/cocur/slugify)
-    - [x] provide interface into `cocur/slugify` to allow for custom rules, etc.
+- [x] switch default slugging method from `Str::slug` to an external package/class that can handle transliteration of other languages (e.g. https://github.com/XisoDev/slugify)
+    - [x] provide interface into `XisoDev/slugify` to allow for custom rules, etc.
 - [X] convert `findBySlug` into a scope (as suggested by @unitedworks in #40)
 - [x] more configurable `unique` options (see issue #53)
 - [x] refactor, or remove, caching code (it wasn't really thought out well enough, IMO)

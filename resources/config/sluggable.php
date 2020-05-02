@@ -44,7 +44,7 @@ return [
     'maxLengthKeepWords' => true,
 
     /**
-     * If left to "null", then use the cocur/slugify package to generate the slug
+     * If left to "null", then use the XisoDev/slugify package to generate the slug
      * (with the separator defined below).
      *
      * Set this to a closure that accepts two parameters (string and separator)

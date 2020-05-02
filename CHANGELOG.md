@@ -12,7 +12,7 @@
 
 ## 6.0.3 - 09-Feb-2020
 
-- bump [cocur/slugify](https://github.com/cocur/slugify) to `^4.0`
+- bump [XisoDev/slugify](https://github.com/XisoDev/slugify) to `^4.0`
 
 
 ## 6.0.2 - 09-Oct-2019
@@ -70,7 +70,7 @@
 ## 4.3.0 - 31-Aug-2017
 
 - Laravel 5.5 support, including auto-registration
-- Bumped `cocur/slugify` to `^3.0`
+- Bumped `XisoDev/slugify` to `^3.0`
 
 
 ## 4.2.5 - 31-Aug-2017
@@ -102,7 +102,7 @@
 ## 4.1.2 - 09-Nov-2016
 
 - Fix in `getExistingSlugs` when using global scopes (#327)
-- Update `Cocur\Slugify` to `^2.3`.
+- Update `XisoDev\Slugify` to `^2.3`.
 
 
 ## 4.1.1 - 12-Oct-2016
@@ -145,7 +145,7 @@
 ## 4.0.0 - 10-Jun-2016
 
 - Fix for Laravel 5.1 (#263 thanks @roshangautam and @andregaldino).
-- Update `Cocur\Slugify` to `^2.1` (#269 thanks @shadoWalker89).
+- Update `XisoDev\Slugify` to `^2.1` (#269 thanks @shadoWalker89).
 
 
 ## 4.0.0-beta - 01-Jun-2016
@@ -198,7 +198,7 @@
 - Convert code-base to PSR-2
 - If the source is empty, then set the slug to `null` (#162 thanks @PallMallShow)
 - Ability to use a model's relations in the `build_from` configuration (#171 thanks @blaxxi)
-- Added `getSlugEngine()` method so that the Cocur\Slugify class can be configured
+- Added `getSlugEngine()` method so that the XisoDev\Slugify class can be configured
 - Updated the migration stub for Laravel 5.1's PSR-2 changes (#174 thanks @39digits)
 - Added `slugging` and `slugged` Eloquent model events
 - Fix for `findBySlugOrId()` methods when the slug is numeric (#161 thanks @canvural)
@@ -214,7 +214,7 @@
 
 - Laravel 5.1 support (#141/#148 thanks @Keoghan, @Bouhnosaure)
 - Removed `use_cache` option and support
-- Use (Cocur\Slugify)[https://github.com/cocur/slugify] as default slugging method
+- Use (XisoDev\Slugify)[https://github.com/XisoDev/slugify] as default slugging method
 - Fix for `include_trashed` option not working for models that inherit the SoftDeletes trait (#136 thanks @ramirezd42)
 - Added `generateSuffix()` method so you could use different strategies other than integers for making incremental slugs (#129 thanks @EspadaV8)
 - Various scope and lookup fixes (thanks @xire28)
